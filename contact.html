@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bookify</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #B0DDF2, #E8FFC6);
+            color: #333;
+        }
+        header {
+            background-color: #E8FFC6;
+            padding: 20px 0;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .header-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center.
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #FFC6C6;
+        }
+        main {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .contact-container {
+            background: #FFEDBB;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .contact-container h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .contact-container p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .contact-container form input,
+        .contact-container form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #B0DDF2;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        .contact-container form input:focus,
+        .contact-container form textarea:focus {
+            outline: none;
+            border-color: #FFC6C6;
+        }
+        .contact-container button {
+            background: linear-gradient(90deg, #FFC6C6, #FFCDF7);
+            color: #333;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-container button:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #333;
+            background: #E8FFC6;
+            padding: 10px 0;
+            font-size: 14px;
+            border-top: 2px solid #FFEDBB;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Bookify</div>
+            <nav>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="genres.html">Genres</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>Have any questions or feedback? We'd love to hear from you!</p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookify. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
